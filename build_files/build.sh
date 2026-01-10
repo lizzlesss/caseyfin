@@ -25,7 +25,8 @@ dnf -y copr enable mochaa/android-udev-rules
 dnf -y install \
     scx-scheds-git \
     scx-manager \
-    android-udev-rules
+    android-udev-rules \
+    ananicy-cpp
     
 # disable copr repos
 dnf -y copr disable bieszczaders/kernel-cachyos-addons
